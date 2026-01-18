@@ -3,12 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>B13-A02-TechWave-By-Saad</title>
+    
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
+<body class="text-white font-inter">
+    <header>
+        <nav  class="bg-[#1A0B2E] p-7">
+            <div class=" flex justify-between items-center  text-white max-w-[1200px] mx-auto my-[0]">
+                <div>
+                <img src="./assets/TechWave.png" alt="">
+            </div>
+            <div>
+                <ul class="flex gap-8 max-[576px]:hidden">
+                    <li><a href="https://web.programming-hero.com/">About</a></li>
+                    <li><a href="https://tailwindcss.com/docs/installation/using-vite">Episodes</a></li>
+                    <li><a href="https://www.figma.com/">Host</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <button class=" px-4 py-3 bg-gradient-to-tr  from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-[10000px] max-[576px]:hidden">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+                <div>
+                    <img class="max-[576px]:block hidden " src="./assets/hamburger-menu.png" alt="">
+                </div>
+            </div>
+            </div>
+        </nav>
+
+        <section class="h-[760px] border-4 border-red-600 bg-[url(./assets/hero-bg.png)] "  >
+            <div class="relative ">
+                <img class="absolute top-[100px] right-[750px]" src="./assets/hero-circle.png" alt="">
+                <img class="absolute top-[180px] right-[870px]" src="./assets/microphone.png" alt="">
+                <img class="absolute top-[100px] right-[730px]" src="./assets/new.png" alt="">
+            </div>
+            <div class="flex justify-around items-center mt-122.75">
+                <div class="text-center">
+                    <h1 class="text-6xl font-extrabold">TechWave</h1>
+                <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                <div>
+                    <button class="px-4 py-3 bg-gradient-to-tr  from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-[10000px]">Listen on Spotify</button>
+                    <button>Subscribe</button>
+                </div>
+                </div>
+            </div>
+        </section>
+    </header>
     
     
 </body>
-</html>
+</html

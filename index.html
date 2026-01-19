@@ -30,6 +30,8 @@
     
     <link rel="stylesheet" href="./styles/style.css">
 </head>
+
+
 <body class="text-white font-inter">
     <header>
         <nav  class="bg-[#1A0B2E] p-7">
@@ -117,27 +119,27 @@
 
             <!-- Grid Layout -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center h-full">
-                <div class="bg-[#351165]/[40%] rounded-[40px] p-10  row-span-2 h-full ">
+                <div class="bg-[#351165]/40 rounded-[40px] p-10  row-span-2 h-full ">
                     <img class=" mb-4" src="./assets/headphone.png" alt="">
                     <h6 class="font-bold text-2xl mb-4">Premium Audio Quality</h6>
                     <p class="text-[16px]/[24px]">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
                 </div>
-                <div class="bg-[#351165]/[40%] rounded-[40px] p-10  col-span-2">
+                <div class="bg-[#351165]/40 rounded-[40px] p-10  col-span-2">
                     <img class=" mb-4" src="./assets/device.png" alt="">
                     <h6 class="font-bold text-2xl mb-4">Mobile Friendly</h6>
                     <p class="text-[16px]/[24px]">Listen on the go with seamless mobile experience and offline downloads.</p>
                 </div>
-                <div class="bg-[#351165]/[40%] rounded-[40px] p-10  col-span-2">
+                <div class="bg-[#351165]/40 rounded-[40px] p-10  col-span-2">
                     <img class=" mb-4" src="./assets/location.png" alt="">
                     <h6 class="font-bold text-2xl mb-4">Global Community</h6>
                     <p class="text-[16px]/[24px]">Connect with tech enthusiasts from over 120 countries worldwide.</p>
                 </div>
-                <div class="bg-[#351165]/[40%] rounded-[40px] p-10  col-span-2">
+                <div class="bg-[#351165]/40 rounded-[40px] p-10  col-span-2">
                     <img class=" mb-4" src="./assets/Exclusive.png" alt="">
                     <h6 class="font-bold text-2xl mb-4">Exclusive Interviews</h6>
                     <p class="text-[16px]/[24px]">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
                 </div>
-                <div class="bg-[#351165]/[40%] rounded-[40px] p-10 ">
+                <div class="bg-[#351165]/40 rounded-[40px] p-10 ">
                     <img class=" mb-4" src="./assets/resource.png" alt="">
                     <h6 class="font-bold text-2xl mb-4">Rich Resources</h6>
                     <p class="text-[16px]/[24px]">Access show notes, transcripts, and additional learning materials for every episode.</p>
@@ -151,7 +153,7 @@
             <h2 class="text-5xl font-bold mb-10 text-center pt-[120px] ">Featured Episodes</h2>
             
             <!-- Card container -->
-            <div class="max-w-[1200px] mx-auto grid lg:grid-cols-3 grid-cols-1 px-5 gap-[1.8rem] ">
+            <div class="max-w-[1200px] mx-auto grid lg:grid-cols-3 grid-cols-1 px-5 gap-[1.8rem]  ">
                 
                 <!-- Card-1 -->
                 <div class="bg-[#250D44] rounded-3xl ">
@@ -208,10 +210,65 @@
             </div>
             <!-- Card container End-->
 
+
+            <!-- Meet the Host Section Start -->
+
+            <div class="max-w-[1200px] mx-auto py-[120px]">
+                <h2 class="text-center text-5xl font-bold ">Meet the Host</h2>
+
+                <!-- Host comtainer -->
+                <div class=" bg-[#250D44] rounded-[40px] p-10 mt-10 grid grid-cols-12 justify-center items-center gap-6 "> 
+
+                    <div class="col-span-2">
+                        <img class="w-[200px]" src="./assets/host.png" alt="">
+                    </div>
+                    <div class=" col-span-10 space-y-4">
+                        <h2 class="text-[2rem] font-bold">Alex Kumar</h2>
+                        <p class="text-[1rem]/[24px]">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                        
+                        <!-- socil icons -->
+                        <div>
+                            <img class="border border-1 border-[#533C72] p-2 rounded-full" src="./assets/linkedin.png" alt="">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
         </section>
 
 
     </main>
+
+    <footer class="bg-[url(./assets/footer-bg.png)] bg-no-repeat bg-cover bg-center">
+
+       <!-- footer container -->
+        <div class="max-w-[1360px] mx-auto text-center py-[120px] border border-2 border-red-600">
+           
+            <div class=" border border-2 border-amber-400">
+                 <div>
+                    <img src="./assets/TechWave.png" alt="">
+                 </div>
+
+                <div class="flex gap-5">
+
+                    <img src="./assets/spotify.png" alt="">Spotify</a>
+                    <img src="./assets/apple-podcast.png" alt="">Spotify</a>
+                    <img src="./assets/youtube.png" alt="">Spotify</a>
+                    <img src="./assets/twitter.png" alt="">Spotify</a>
+
+                </div>
+
+                <div>
+                    <p><small>&copy; 2026 TechWave Podcast. All rights reserved.</small></p>
+                </div>
+            </div>
+           
+        </div>
+
+    </footer>
     
 </body>
 </html

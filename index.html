@@ -9,6 +9,21 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          screens: {
+            'md': '577px',
+            'lg': '993px',
+
+          }
+        }
+      }
+    }
+  </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -58,6 +73,47 @@
         </section>
     </header>
     
+
+    <main>
+        <!-- About section -->
+        <section class="bg-[#1A0B2E]">
+            <div class="max-w-[1200px] mx-auto text-center">
+                <div>
+                    <h2 class="text-5xl font-bold mb-4">About the Podcast</h2>
+                    <p class="text-4rem line/[1.25rem]">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.<br>We break down complex topics into digestible insights, explore productivity strategies that actually work,<br>and share stories of personal growth from industry leaders. <br> <br>Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+                </div>
+
+                <hr class="my-20 text-white opacity-10">
+
+                <div class="grid lg:grid-cols-4 grid-cols-2 gap-7 gap-y-14 lg:gap-0 justify-around">
+                    <div>
+                    <p class="text-[#00FF88] text-5xl font-black mb-4 text-center " >150K+</p>
+                    <p class="text-1rem/[1.25rem]">MONTHLY LISTENERS</p>
+                    </div>
+                    <div>
+                    <p class="text-[#00FF88] text-5xl font-black mb-4 text-center " >150K+</p>
+                    <p class="text-1rem/[1.25rem]">MONTHLY LISTENERS</p>
+                    </div>
+                    <div>
+                    <p class="text-[#00FF88] text-5xl font-black mb-4 text-center " >150K+</p>
+                    <p class="text-1rem/[1.25rem]">MONTHLY LISTENERS</p>
+                    </div>
+                    <div>
+                    <p class="text-[#00FF88] text-5xl font-black mb-4 text-center " >150K+</p>
+                    <p class="text-1rem/[1.25rem]">MONTHLY LISTENERS</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Section -->
+        <section>
+            
+        </section>
+
+
+    </main>
     
 </body>
 </html

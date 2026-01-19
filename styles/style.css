@@ -1,9 +1,10 @@
 @import "tailwindcss"
 
 
+@theme {
+  --font-Inter: "Inter", sans-serif;
+}
+:root{
+  --
 
-
-
-.   {
-  font-family: "Inter", sans-serif;
 }
